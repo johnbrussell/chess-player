@@ -1,3 +1,5 @@
 .git
 *.out
 *~
+.idea
+test/catch
