@@ -6,14 +6,15 @@
 
 class Board
 {
-    public: 
+    public:
         Board();
         Board(int x_size, int y_size);
         bool is_location_on_board(std::string location);
 
     private:
-        int board_size_x;
-        int board_size_y;
+        bool set_piece();
+        int  board_size_x;
+        int  board_size_y;
 };
 
 #endif
